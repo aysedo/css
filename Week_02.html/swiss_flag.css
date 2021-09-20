@@ -1,0 +1,18 @@
+main {
+  display: block;
+  width: 125px;
+  height: 125px;
+}
+.swiss1 {
+  background-color: crimson;
+  width: 25px;
+  height: 25px;
+  float: left;
+}
+
+.swiss2 {
+  background-color: snow;
+  width: 25px;
+  height: 25px;
+  float: left;
+}
