@@ -1,3 +1,4 @@
+/*i give them a block dispaly*/
 main {
   display: block;
   width: 125px;
@@ -9,6 +10,7 @@ main {
   height: 25px;
   float: left;
 }
+/* I share the classe to 2 different classes*/
 
 .swiss2 {
   background-color: snow;
