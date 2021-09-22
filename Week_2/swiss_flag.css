@@ -3,6 +3,8 @@ main {
   display: block;
   width: 125px;
   height: 125px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.356);
+
 }
 .swiss1 {
   background-color: crimson;
