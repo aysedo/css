@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+{
+backgroundcolor="rgb(87, 221, 25);
+}
+
+main {
+  background-color: lightskyblue;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgb(131, 28, 79) 0%, #fff 100%);
+  padding: 50px 50px;
+  margin: 70px;
+  border: solid black;
+  width: calc(100% - 140px);
+  line-height: 2;
+  float: left;
+}
+img {
+  border-radius: 30px;
+  padding: 20px;
+}
+#email {
+  color: blue;
+  text-decoration-line: underline;
+}
+
+.about-me {
+  border: 5px solid rgb(238, 232, 232);
+  border-radius: 20px;
+  width: calc(400px - 20px);
+  height: 1270px;
+  float: left;
+  padding: 10px;
+}
+ul>li #menu{
+  font-family: "Raleway", sans-serif;
+}
+
+.info-group {
+  float: left;
+  width: calc(100% - 405px);
+  height: 1270px;
+  border: 5px solid gray;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 5px;
+}
+
+.experience {
+  border: 5px solid rgb(238, 232, 232);
+  border-radius: 20px;
+}
+
+.experience > div {
+  border: 1px solid white;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: rgb(118, 169, 226);
+}
+
+.bar-padded {
+  padding-left: 10px;
+}
+
+.experience > div:first-child {
+  width: 100%;
+}
+
+.experience > div:nth-child(2) {
+  width: 50%;
+}
+
+.experience > div:nth-child(3) {
+  width: 0%;
+}
+
+.experience > div:last-child {
+  width: 70%;
+}
+
+#kids {
+  width: 300px;
+  align-items: center;
+}
+
+.info-section {
+  width: calc(50% - 40px);
+  float: left;
+  border: 5px solid rgb(238, 232, 232);
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+p {
+  text-overflow: ellipsis;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header > p {
+  text-align: center;
+  border-radius: 100px;
+  box-shadow: darkgray;
+  background-color: darkgray;
+  width: 100px;
+  height: 100px;
+  font-size: 55px;
+  line-height: 1.75;
+}
+header > #Name {
+  font-size: 40px;
+  text-align: 0px;
+  color: aliceblue;
+  font-style: italic;
+}
+
+iframe {
+  width: auto;
+  height: auto;
+  border-radius: 40px;
+}
+.Name {
+  text-align: center;
+  text-justify: right;
+}
+
+div {
+  box-sizing: solid black;
+}
