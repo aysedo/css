@@ -1,0 +1,71 @@
+#facebook-page {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(223, 215, 215, 0.459);
+  margin: 0px;
+  width: 120vw;
+  height: 80vh;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 5vh;
+  font-family: sans-serif;
+  color: royalblue;
+  margin-left: 15vw;
+  margin-top: 16vh;
+  
+}
+.main_content{
+  margin-left: 15vw;
+  
+}
+
+/* buraya yorum satiri gelecek*/
+
+aside {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  padding: 10px;
+  width: 280px;
+  height: 150px;
+  position:absolute;
+  right: -100px;
+  top: 100px;
+  
+}
+
+aside section {
+  background-color: white;
+  width: 280px;
+  height: 210px;
+}
+
+#email {
+  border: 1px solid royalblue;
+  width: 35vh;
+  height: 4vh;
+}
+#last_section{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: -15vh;
+  box-sizing: content-box;
+  width: 120vw;
+  height: 80vh;
+  margin-top: 26vh;
+  background-color: #ffffff;
+}
+
+.language{
+  margin-left:15vw ;
+  margin-top: 5vh;
+}
+.link{
+  margin-left:15vw;
+  
+}
