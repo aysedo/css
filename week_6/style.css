@@ -1,8 +1,35 @@
-/*General settings*/
-*{
-    box-sizing: content-box;
-    margin: 0px;
-    padding: 0px;
-}
-
 /*colors*/
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(19, 133, 247, 0.685);
+    width: 60vw;
+    height: 90vh;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 20vh;
+    background-color: yellowgreen;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 12vw;
+    height: 50vh ;
+    background-color: turquoise;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+#section_content_container{
+    display: flex;
+    flex-direction: row;
+    width: 55vw;
+    height: 40vh;
+
+}
